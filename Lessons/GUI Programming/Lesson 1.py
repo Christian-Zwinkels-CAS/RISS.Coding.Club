@@ -10,4 +10,7 @@ text.pack() #Lazy way to put it in the window
 text2 = Label(root, text="This is below the other label")
 text2.pack() #By default things get packed from top to bottom
 
+button = Button(root, text="Im useless") #Creates a button
+button.pack
+
 root.mainloop() #Initiates the main loop so that the window doesnt close
