@@ -6,7 +6,7 @@ root.title("Using the grid layout")
 usr = Label(root, text="Username", anchor=W) #Anchor aligns the text in this case to the west (yeah I know its weird)
 passwr = Label(root, text="Password", anchor=W)
 
-but = Button(root, text="Show me my username and password")
+but = Button(root, text="Show me my username and password") #Next lesson we can bind this to a function that shows the user what they typed in
 
 usr_e = Entry(root) #Creates an entry box with allows string input from the user
 passwr_e = Entry(root)
