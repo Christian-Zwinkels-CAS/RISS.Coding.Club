@@ -14,7 +14,7 @@ passwr_e = Entry(root)
 usr.grid(row=0, column=0, sticky=W) #Places it to row 1 and column 1 aligning  it to the west
 passwr.grid(row=1, column=0, sticky=W)
 
-but.grid(row=3, column=0, columnspan=2) #Columnspan lets the object span over 2 columns
+but.grid(row=2, column=0, columnspan=2) #Columnspan lets the object span over 2 columns
 
 usr_e.grid(row=0, column=1)
 passwr_e.grid(row=1, column=1)
